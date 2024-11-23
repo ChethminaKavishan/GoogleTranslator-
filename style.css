@@ -1,0 +1,50 @@
+body {
+  background-color: #1e1e1e; /* Dark background */
+  color: #fff; /* Light text */
+  font-family: 'Arial', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.chat-container {
+  background-color: #282828;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 255, 255, 0.2); /* Neon glow */
+  padding: 20px;
+  width: 500px;
+}
+
+#chatbox {
+  background-color: #383838;
+  border-radius: 5px;
+  padding: 10px;
+  height: 300px;
+  overflow-y: auto;
+  margin-bottom: 10px;
+}
+
+#messageInput {
+  background-color: #383838;
+  color: #fff;
+  border: 2px solid #0ff; /* Neon border */
+  border-radius: 5px;
+  padding: 10px;
+  width: calc(100% - 10px);
+  margin-bottom: 10px;
+}
+
+#sendMessage {
+  background-color: #0ff; /* Neon blue */
+  color: #000;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+#sendMessage:hover {
+  background-color: #0bb; /* Darker neon blue on hover */
+}
